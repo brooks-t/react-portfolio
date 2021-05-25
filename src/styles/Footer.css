@@ -1,0 +1,19 @@
+#contact-me-content {
+    background-color: #4c586f;
+    padding: 15px;
+}
+
+#contact-me-content a {
+    color: #ebeced;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 4px 4px 4px;
+    border-bottom: 4px solid #ebeced;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: lightblue;
+    border-color: lightblue;
+    opacity: 0.8;
+}

@@ -19,7 +19,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <Container>
+            <Container fluid="-fluid">
                 <Row>
                     <Col size = "md-12">
                         <Header />
