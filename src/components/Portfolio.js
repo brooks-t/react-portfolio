@@ -45,37 +45,61 @@ class Portfolio extends Component {
                     </Row>
                     <Row>
                         <Col size = "md-12">
-                            <Project image={subster} alt="subster app"/>
+                            <Project 
+                                image={subster}
+                                alt="subster app"
+                                link="https://subster.herokuapp.com/"
+                            />
                         </Col>
                     </Row>
                 </div>
                 <Row>
                     <Col size = "md-12">
-                        <Project image={travelBuddy} alt="travel buddy app"/>
+                        <Project 
+                            image={travelBuddy}
+                            alt="travel buddy app"
+                            link="https://brooks-t.github.io/travel-buddy/"
+                        />
                     </Col>
                 </Row>
                 <div className="shaded">
                     <Row>
                         <Col size = "md-12">
-                            <Project image={userDirectory} alt="user directory app"/>
+                            <Project 
+                                image={userDirectory}
+                                alt="user directory app"
+                                link="https://employee-directory-brooks.herokuapp.com/"
+                            />
                         </Col>
                     </Row>
                 </div>
                 <Row>
                     <Col size = "md-12">
-                        <Project image={fitnessTracker} alt="fitness tracker app"/>
+                        <Project
+                            image={fitnessTracker}
+                            alt="fitness tracker app"
+                            link="https://bt-fitness-tracker.herokuapp.com/"
+                        />
                     </Col>
                 </Row>
                 <div className="shaded">
                     <Row>
                         <Col size = "md-12">
-                            <Project image={weatherDashboard} alt="weather dashboard app"/>
+                            <Project 
+                                image={weatherDashboard}
+                                alt="weather dashboard app"
+                                link="https://brooks-t.github.io/weather-dashboard/"
+                            />
                         </Col>
                     </Row>
                 </div>
                 <Row>
                     <Col size = "md-12">
-                        <Project image={codeQuiz} alt="code quiz app"/>
+                        <Project 
+                            image={codeQuiz}
+                            alt="code quiz app"
+                            link="https://brooks-t.github.io/code-quiz/"
+                            />
                     </Col>
                 </Row>
                 <div id="footer-color">
