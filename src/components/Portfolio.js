@@ -3,6 +3,7 @@ import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
 import Header from "./Header";
+import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Footer from "./Footer";
@@ -27,8 +28,7 @@ class Portfolio extends Component {
                 </Row>
                 <Row>
                     <Col size = "md-12">
-                        <h1>Brooks Tiffany</h1>
-                        <h2>Full Stack Developer | UX Professional</h2>
+                        <Hero />
                     </Col>
                 </Row>
                 <Row>

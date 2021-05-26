@@ -1,0 +1,22 @@
+#hero-banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/seattle-skyline_ben-dutton.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
