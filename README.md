@@ -9,6 +9,6 @@ This portfolio is built with React and is meant to showcase what I've learned so
 - Click on any of the projects to be the active app for any of the projects.
 - Find my contact information in the footer of the website to include my GitHub.
 
-Link: https://brooks-t.github.io/professional-portfolio/
+Link: https://react-portfolio-brooks.herokuapp.com/
 
 ![screenshot of my professional portfolio](./src/img/portfolio-screenshot.png)

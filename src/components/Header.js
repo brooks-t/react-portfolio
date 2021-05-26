@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/Header.css";
+import resume from "../img/brooks-resume_05-11-2021.pdf";
 
 class Header extends Component {
 
@@ -9,7 +10,7 @@ class Header extends Component {
                 <a href="#about-me-content">About Me</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact-me-content">Contact Me</a>
-                <a href="./assets/img/brooks-resume_05-11-2021.pdf" target="_blank">Resume</a>
+                <a href={resume}>Resume</a>
             </nav>
         )
     }
