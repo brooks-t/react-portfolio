@@ -1,0 +1,22 @@
+#my-projects-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact-me-title {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.shaded {
+    background-color: #ebeced;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+#footer-color {
+    background-color: #4c586f;
+}

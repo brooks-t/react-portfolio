@@ -15,12 +15,13 @@ import fitnessTracker from "../img/0-fitness-tracker.png";
 import weatherDashboard from "../img/weather.png";
 import codeQuiz from "../img/0-code-quiz.png";
 
+import "../styles/Portfolio.css";
 
 class Portfolio extends Component {
 
     render() {
         return (
-            <Container fluid="-fluid">
+            <Container  fluid="-fluid">
                 <Row>
                     <Col size = "md-12">
                         <Header />
@@ -36,41 +37,60 @@ class Portfolio extends Component {
                         <AboutMe />
                     </Col>
                 </Row>
-                <Row>
-                    <Col size = "md-12">
-                        <Project image={subster} alt="subster app"/>
-                    </Col>
-                </Row>
+                <div className="shaded">
+                    <Row>
+                        <Col size = "md-12">
+                            <h2 id="my-projects-title">My Projects</h2>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size = "md-12">
+                            <Project image={subster} alt="subster app"/>
+                        </Col>
+                    </Row>
+                </div>
                 <Row>
                     <Col size = "md-12">
                         <Project image={travelBuddy} alt="travel buddy app"/>
                     </Col>
                 </Row>
-                <Row>
-                    <Col size = "md-12">
-                        <Project image={userDirectory} alt="user directory app"/>
-                    </Col>
-                </Row>
+                <div className="shaded">
+                    <Row>
+                        <Col size = "md-12">
+                            <Project image={userDirectory} alt="user directory app"/>
+                        </Col>
+                    </Row>
+                </div>
                 <Row>
                     <Col size = "md-12">
                         <Project image={fitnessTracker} alt="fitness tracker app"/>
                     </Col>
                 </Row>
-                <Row>
-                    <Col size = "md-12">
-                        <Project image={weatherDashboard} alt="weather dashboard app"/>
-                    </Col>
-                </Row>
+                <div className="shaded">
+                    <Row>
+                        <Col size = "md-12">
+                            <Project image={weatherDashboard} alt="weather dashboard app"/>
+                        </Col>
+                    </Row>
+                </div>
                 <Row>
                     <Col size = "md-12">
                         <Project image={codeQuiz} alt="code quiz app"/>
                     </Col>
                 </Row>
-                <Row>
-                    <Col size = "md-12">
-                        <Footer />
-                    </Col>
-                </Row>
+                <div id="footer-color">
+                    <Row>
+                        <Col size="md-12">
+                        <h2 id="contact-me-title">Contact Me</h2>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size = "md-12">
+                            <Footer />
+                        </Col>
+                    </Row>
+                </div>
+                
             </Container>
         )
     
